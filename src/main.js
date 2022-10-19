@@ -46,7 +46,7 @@ const expirationDateMasked = IMask(expirationDate, expirationDatePattern)
 
 const cardNumber = document.querySelector("#card-number")
 const cardNumberPattern = {
-    marsk: [
+    mask: [
         {
             mask: "0000 0000 0000",
             regex: /^4\d{0,15}/, // inicia com número 4 com digitos de 0 até 15
